@@ -37,7 +37,7 @@ void main() {
 
                 
                 Text(
-                  'Welcome to CADT G2',
+                  'Welcome to CADT',
                   style: TextStyle(
                     fontSize: 28,
                     fontWeight: FontWeight.bold,
@@ -57,43 +57,6 @@ void main() {
 
                 SizedBox(height: 40),
 
-                // Information container
-                Container(
-                  width: double.infinity,
-                  padding: EdgeInsets.all(25),
-                  decoration: BoxDecoration(
-                    color: Colors.blue.shade100,
-                    borderRadius: BorderRadius.circular(20),
-                  ),
-                  child: Column(
-                    children: [
-                      Text(
-                        'Computer Science',
-                        style: TextStyle(
-                          fontSize: 24,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-
-                      SizedBox(height: 15),
-
-                      Text(
-                        'Software Engineering',
-                        style: TextStyle(fontSize: 18),
-                      ),
-
-                      SizedBox(height: 10),
-
-                      Text(
-                        'Mobile Application Development',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(fontSize: 16),
-                      ),
-                    ],
-                  ),
-                ),
-
-                SizedBox(height: 30),
 
                 // Two boxes using Row
                 Row(
@@ -136,7 +99,6 @@ void main() {
 
                 SizedBox(height: 30),
 
-                // Get Started display
                 Container(
                   width: double.infinity,
                   height: 60,
